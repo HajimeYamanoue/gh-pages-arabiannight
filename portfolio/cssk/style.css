@@ -1,0 +1,401 @@
+@charset "utf-8";
+
+.wrapper {
+    margin: 0 auto;
+    width: 1185px;
+    position: center top;
+    background-image: url(../images/title.psd.png);
+    background-size: 120% auto;
+    background-position: 200px -30px;
+    background-attachment: fixed;
+
+}
+
+body {
+    background-image: url(../images/body.png);
+    background-size: cover;
+}
+
+.container1,
+.group21,
+.containerg62,
+.itemn {
+    display: flex;
+}
+
+.itemg621 {
+    background-image: url(../courtney-smith-KZ8PzjStLto-unsplash.jpg);
+}
+.itemg622 {
+    background-image: url(../elsa-olofsson-MrrpMtG5iSw-unsplash.jpg);
+}
+.itemg623 {
+    background-image: url(../laura-chouette-3zmyWEP4KxE-unsplash.jpg);
+}
+
+.itemg621,
+.itemg622,
+.itemg623 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    width: 220px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.itemg621 {
+    background-image: url(../images/g62_1.png);
+}
+
+.itemg622 {
+    background-image: url(../images/g62_2.png);
+}
+
+.itemg623 {
+    background-image: url(../images/g62_3.png);
+}
+
+
+.group1 {
+    width: 30%;
+    
+}
+
+.intro {
+    transform: translateX(-535px);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bolder;
+    margin-left: 335px;
+    width: 500px;
+    height: 300px;
+    background-image: url(../images/G5.png);
+    background-position: center bottom;
+    padding: 10px;
+    right: 0;
+}
+
+.nav {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 615px;
+}
+
+.smalltop {
+    width: 300px;
+}
+
+.itemg41 {
+    margin: 1em;
+    font-size: 1.5em;
+}
+
+.market {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: black;
+    color: white;
+    height: 510px;
+    width: 830px;
+}
+
+.group2 {
+    /*ｂｇサイズ大き目にとって（ｂｇｓ：　１５０％　auto）、ｂｇアタッチメントfix※大き目のbgiをとってくる*/
+    
+}
+
+.group1 {
+    background-color: #545454;
+    color: white;
+}
+
+.group22 {
+    height: 610px;
+    width: 530px;
+}
+
+
+
+.fluid-box{
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ddd;
+    padding: 40px;
+}
+
+.G1{
+    padding: 0 25px 25px;
+    background-image: url(../images/G1.png);
+    background-size: contain;
+    height: 380px;
+    margin: 0;
+    background-position: left top;
+    
+}
+
+.itemn img {
+    width: 150px;
+    margin-right: 15px;
+}
+
+.news,
+.itemga span {
+    font-size: 30px;
+    text-indent: 15px;
+}
+
+
+
+.itemn {
+    margin: 15px;
+    font-size: 15px;
+}
+
+.access {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin: 0 30px;
+    padding: 1em;
+    background-color: #868582;
+}
+
+
+
+.kenden {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+.kenden span {
+    font-size: 55px;
+}
+
+.g12 {
+    
+    color: black;
+    margin-left: 10px;
+}
+
+.kanji {
+  margin-left: 340px;
+    margin-top: 340px;
+}
+
+.G2 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;  
+}
+
+.itemi {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+}
+
+.itemi2 span {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #dc0303;
+}
+
+.itemi2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+}
+
+.containerg62 {
+    width: 660px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.g61 {
+    line-height: 2.5em;
+    padding-left: 100px;
+}
+
+footer {
+    margin-left: 150px;
+    margin-top: 0.5em;
+}
+
+.itemga span,
+.news,
+.itemg3 span{
+    display: block;
+    height: 30px;
+    width: 150px;
+    margin: 10px auto 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.news {
+    font-size: 30px;
+}
+
+.itemga span {
+    margin-top: 0;
+}
+
+.itemga img {
+    display: block;
+    margin: 0 auto;
+}
+
+.none {
+    overflow: hidden;
+    width: 0;
+    height: 0;
+}
+
+.title0 {
+    display: none; 
+}
+
+#top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 80px;
+}
+
+#itemg41 {
+    text-decoration: none;
+    color: white;
+}
+
+#top:visited,
+#itemg41:visited {
+    color: #dc0303;
+}
+
+.kanji {
+    color: rgba(0, 0, 0, .0);
+    width: 150px;
+    height: 100px;
+    background-image: url(../images/hirosima.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: exclusion;
+}
+
+/*============================================================
+スマホ版
+============================================================*/
+
+@media (max-width: 760px) {
+    
+    body {
+        width: 760px;
+    }
+    
+    .wrapper {
+        width: 760px;
+        margin: 0 auto;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .group1 {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100vw;        
+    }
+    
+    .market {
+        width: 100vw;
+    }
+    
+    .G1 {
+        display: none;
+    }
+    
+    .containerg62 {
+        margin: 0 auto;
+    }
+    
+    .group2 {
+        width: 760px;
+    }
+    
+    .group21 {
+        display: flex;
+        width: 760px;
+        margin: 0;
+        background-image: url(../images/top_small.png);
+        background-size: 600px;
+        background-position: -20px top;
+        background-attachment: fixed;
+    }
+    
+    .group22 {
+        width: 400px;
+        transform: translateX(80px);
+        
+    }
+    
+    .kanji {
+        display: none;
+    }
+    
+    .title2,
+    .title3 {
+        display: none;
+    }
+    
+    
+    .intro {
+        
+        height: 620px;
+        width: 560px;
+        margin: 0;
+        padding-top: 300px; 
+        position: right;
+        transform: translateX(-400px);
+    }
+    
+    .nav {
+        padding-top: 53px;
+        transform: translateX(-400px);
+        height: 620px;
+        width: 300px;
+    }
+    
+    .nav img {
+        width: 125px;
+    }
+    
+    .smalltop {
+        display: flex;
+        flex-direction: row-reverse;
+        align-content: center;
+        width: 760px;
+    }
+    
+    .title {
+        display: block;
+        width: 450px;
+        transform: translateX(-15px);
+        margin-top: 10px;
+    }
+    
+    .title0 {
+        display: block;
+        width: 350px;
+    }
+    
+    .itemi,
+    .itemi2 {
+        width: 500px;
+    }
+
+}
+

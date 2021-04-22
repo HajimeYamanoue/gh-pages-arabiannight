@@ -1,0 +1,442 @@
+@charset "utf-8";
+
+html {
+    font-family: 'Yanone Kaffeesatz', 'Sawarabi Mincho', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(img/wrap2.png);
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-position: center top;
+}
+
+body {
+    background-image: url(img/bkg-62.jpg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/water-3350331_19202.jpg.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 100;
+}
+
+header div {
+    width: 100vw;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url(img/logo2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+    width: 100vw;
+    display: none;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(img/nav.png);
+    background-size: 100vw 70%;
+    margin: 0;
+    height: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 250px;
+    z-index: 100;
+}
+
+.navg {
+    margin: 0 40px;
+    text-transform: uppercase;
+    line-height: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: center;
+}
+
+.navg a {
+    display: block;
+    text-decoration: none;
+    color: #ffe6ad;
+    line-height: 30px;
+    font-size: 40px;
+    vertical-align: center;
+   
+}
+
+
+
+.title {
+    width: 200px;
+    height: 60px;
+    margin-right: 100px;
+}
+
+.gazou {
+    width: 300px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    
+}
+
+.gazouh {
+    width: 300px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    vertical-align: bottom;
+}
+
+.profile,
+.itemh,
+.hf {
+    display: none;
+}
+
+.profile,
+.itemh,
+.hf {
+    display: flex;
+    justify-content: center;
+    vertical-align: inherit;
+    align-items: center;
+    margin-bottom: 200px;
+    vertical-align: bottom;
+}
+
+.itemh1 {
+    margin-top: 100px;
+}
+
+.item,
+.itemh,
+.itemh1 {
+    height: 270px;
+}
+
+table {
+    width: 500px;
+}
+
+
+th {
+    vertical-align: top;
+    text-align: left;
+    padding-left: 30px;
+    width: 150px;
+    font-size: 25px;
+}
+
+td {
+    vertical-align: top;
+    text-align: left;
+    padding-left: 0;
+}
+
+.itemh1 table {
+    margin-top: 25px;
+}
+
+.item table,
+.itemh1 table {
+    margin-left: 20px;
+}
+
+.item table:nth-child(1) {
+    padding-top: 60px;
+}
+
+.item table:nth-child(2) {
+    padding-top: 100px;
+}
+
+.itemp table {
+    margin-top: 20px;
+}
+
+.skill {
+    width: 100px;
+}
+
+.s {
+    width: 200px;
+    margin-left: 500px;
+}
+
+.item_s1 table {
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 250px;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.item_s1 table,
+.item_s1 tr,
+.item_s1 th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.item_s1 tbody td,
+.item_s1 tbody th {
+    height: 200px;
+    padding: 1em;
+}
+
+.book {
+    height: 150px;
+}
+
+tbody tr td {
+    display: flex;
+}
+
+tbody tr td div {
+    padding-left: 1em;
+}
+
+tbody tr td div {
+    padding-left: 1em;
+    margin: auto 0;
+}
+
+#works {
+    margin-top: 300px;
+}
+
+.w {
+    width: 500px;
+}
+
+.works div {
+    margin-left: 200px;
+}
+
+.works .title {
+    margin-left: 100px;
+}
+
+.contents {
+    width: 500px;
+    height: 450px;
+}
+
+.works table th p {
+    margin-right: 100px;
+    font-size: 15px;
+}
+
+.works table th p span {
+    font-size: 25px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    display: block;
+}
+
+.works table th {
+    padding-left: 130px;
+    margin: 0;
+}
+
+
+.top {
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    line-height: 100vh;
+}
+
+#contact {
+    margin-top: 500px;
+    
+}
+
+.delay {
+    margin-top: 130px;
+}
+
+.totop {
+    position: sticky;
+    bottom: 10px;
+    width: 250px;
+    height: 125px;
+    margin: 0 auto;
+}
+
+.totop img {
+    width: 100%;
+    height: auto;
+}
+
+.chara {
+    max-width: 30vw;
+    height: auto;
+    float: left;
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+    z-index: 1;
+}
+
+.chara2 {
+    max-width: 30vw;
+    height: auto;
+    float: right;
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    z-index: 1;
+}
+
+
+
+.chara img {
+    width: 100%;
+}
+
+.smoke img {
+    height: 100vh;
+    width: 100vw;
+    position: 50% 50%;
+}
+
+/*-------------------
+footer
+--------------------*/
+footer {
+    margin-top: 200px;
+}
+.ft {
+    width: 200px;
+}
+
+.itemf table {
+    margin: 0 auto 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 300px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    line-height: 30px
+}
+
+.itemf {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.fb {
+    width: 50px;
+    margin-bottom: 100px;
+}
+
+#jump {
+    display: none;
+}
+
+.open #jump {
+    display: block;
+}
+/*==================================================-
+width＝1200以下
+====================================================*/
+@media screen and (max-width: 1200px) {
+    
+    .wrapper {
+        width: 760px;
+        margin: 0 auto;
+    }
+    
+    .item_s1 table {
+        width: 700px;
+        margin-left: 40px;
+    }
+    
+    .s {
+        width: 250px;
+        margin-left: 270px;
+    }
+    
+    .works .item {
+        margin: 0;
+    }
+    
+    .works {
+        width: 760px;
+    }
+    
+    .works table {
+        margin: 0;
+    }
+    
+    .works item table th {
+        text-align: center;
+        
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper {
+        width: 760px;
+        margin: 0 auto;
+    }
+    
+    table {
+        width: 500px;
+    }
+    
+}
+
+/*==================================================-
+width＝800以下
+====================================================*/
+@media screen and (max-width: 900px) {
+    
+
+    
+    .nav {
+        background-image: url(img/nav2.png);
+        background-position: center top;
+        padding: 10px 70px 200px 70px;
+        height: 300px;
+        flex-wrap: nowrap;
+    }
+    
+    .nav a {
+        margin: 5px 15px 5px 15px;
+        font-size: 40px;
+    }
+    
+    table {
+        width: 400px;
+    }
+    
+    .gazou, .gazouh {
+        width: 250px;
+    }
+}
